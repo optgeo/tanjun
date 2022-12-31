@@ -1,5 +1,5 @@
 # tanjun
-Simplistic style.json for GSI's optbv for QGIS.
+Simplistic style.json for GSI's optbv to be used with QGIS.
 
 ![social preview image](https://repository-images.githubusercontent.com/583911009/0c3ae923-b7a7-4ef0-8069-227ff3f1d45a)
 
