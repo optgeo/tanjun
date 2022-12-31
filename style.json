@@ -1,0 +1,259 @@
+{
+  "version": 8,
+  "name": "tanjun",
+  "sources": {
+    "v": {
+      "type": "vector",
+      "minzoom": 4,
+      "maxzoom": 16,
+      "tiles": [
+        "https://maps.gsi.go.jp/xyz/experimental_bvmap-v1/{z}/{x}/{y}.pbf"
+      ],
+      "attribution": "optbv by GSI"
+    }
+  },
+  "layers": [
+    {
+      "id": "AdmArea-area",
+      "type": "fill",
+      "source": "v",
+      "source-layer": "AdmArea",
+      "paint": {
+        "fill-color": "rgba(240, 240, 240, 0.6)"
+      }
+    },
+    {
+      "id": "WA-area",
+      "type": "fill",
+      "source": "v",
+      "source-layer": "WA",
+      "paint": {
+        "fill-color": "rgba(240, 240, 240, 0.6)"
+      }
+    },
+    {
+      "id": "TpgphArea-area",
+      "type": "fill",
+      "source": "v",
+      "source-layer": "TpgphArea",
+      "paint": {
+        "fill-color": "rgba(240, 240, 240, 0.6)"
+      }
+    },
+    {
+      "id": "WRltLine-area",
+      "type": "fill",
+      "source": "v",
+      "source-layer": "WRltLine",
+      "paint": {
+        "fill-color": "rgba(240, 240, 240, 0.6)"
+      }
+    },
+    {
+      "id": "WStrA-area",
+      "type": "fill",
+      "source": "v",
+      "source-layer": "WStrA",
+      "paint": {
+        "fill-color": "rgba(240, 240, 240, 0.6)"
+      }
+    },
+    {
+      "id": "BldA-area",
+      "type": "fill",
+      "source": "v",
+      "source-layer": "BldA",
+      "paint": {
+        "fill-color": "rgba(240, 240, 240, 0.6)"
+      }
+    },
+    {
+      "id": "SpcfArea-area",
+      "type": "fill",
+      "source": "v",
+      "source-layer": "SpcfArea",
+      "paint": {
+        "fill-color": "rgba(240, 240, 240, 0.6)"
+      }
+    },
+    {
+      "id": "StrctArea-area",
+      "type": "fill",
+      "source": "v",
+      "source-layer": "StrctArea",
+      "paint": {
+        "fill-color": "rgba(240, 240, 240, 0.6)"
+      }
+    },
+    {
+      "id": "Cstline-line",
+      "type": "line",
+      "source": "v",
+      "source-layer": "Cstline",
+      "paint": {
+        "line-color": "rgba(180, 180, 180, 0.6)",
+        "line-width": 0.7
+      }
+    },
+    {
+      "id": "RvrCL-line",
+      "type": "line",
+      "source": "v",
+      "source-layer": "RvrCL",
+      "paint": {
+        "line-color": "rgba(180, 180, 180, 0.6)",
+        "line-width": 0.7
+      }
+    },
+    {
+      "id": "WL-line",
+      "type": "line",
+      "source": "v",
+      "source-layer": "WL",
+      "paint": {
+        "line-color": "rgba(180, 180, 180, 0.6)",
+        "line-width": 0.7
+      }
+    },
+    {
+      "id": "WRltLine-line",
+      "type": "line",
+      "source": "v",
+      "source-layer": "WRltLine",
+      "paint": {
+        "line-color": "rgba(180, 180, 180, 0.6)",
+        "line-width": 0.7
+      }
+    },
+    {
+      "id": "AdmBdry-line",
+      "type": "line",
+      "source": "v",
+      "source-layer": "AdmBdry",
+      "paint": {
+        "line-color": "rgba(180, 180, 180, 0.6)",
+        "line-width": 0.7
+      }
+    },
+    {
+      "id": "Cntr-line",
+      "type": "line",
+      "source": "v",
+      "source-layer": "Cntr",
+      "paint": {
+        "line-color": "rgba(180, 180, 180, 0.6)",
+        "line-width": 0.7
+      }
+    },
+    {
+      "id": "Isbt-line",
+      "type": "line",
+      "source": "v",
+      "source-layer": "Isbt",
+      "paint": {
+        "line-color": "rgba(180, 180, 180, 0.6)",
+        "line-width": 0.7
+      }
+    },
+    {
+      "id": "TpgphLine-line",
+      "type": "line",
+      "source": "v",
+      "source-layer": "TpgphLine",
+      "paint": {
+        "line-color": "rgba(180, 180, 180, 0.6)",
+        "line-width": 0.7
+      }
+    },
+    {
+      "id": "RdCL-line",
+      "type": "line",
+      "source": "v",
+      "source-layer": "RdCL",
+      "paint": {
+        "line-color": "rgba(180, 180, 180, 0.6)",
+        "line-width": 0.7
+      }
+    },
+    {
+      "id": "RailCL-line",
+      "type": "line",
+      "source": "v",
+      "source-layer": "RailCL",
+      "paint": {
+        "line-color": "rgba(180, 180, 180, 0.6)",
+        "line-width": 0.7
+      }
+    },
+    {
+      "id": "RdEdg-line",
+      "type": "line",
+      "source": "v",
+      "source-layer": "RdEdg",
+      "paint": {
+        "line-color": "rgba(180, 180, 180, 0.6)",
+        "line-width": 0.7
+      }
+    },
+    {
+      "id": "RdCompt-line",
+      "type": "line",
+      "source": "v",
+      "source-layer": "RdCompt",
+      "paint": {
+        "line-color": "rgba(180, 180, 180, 0.6)",
+        "line-width": 0.7
+      }
+    },
+    {
+      "id": "RailTrCL-line",
+      "type": "line",
+      "source": "v",
+      "source-layer": "RailTrCL",
+      "paint": {
+        "line-color": "rgba(180, 180, 180, 0.6)",
+        "line-width": 0.7
+      }
+    },
+    {
+      "id": "StrctLine-line",
+      "type": "line",
+      "source": "v",
+      "source-layer": "StrctLine",
+      "paint": {
+        "line-color": "rgba(180, 180, 180, 0.6)",
+        "line-width": 0.7
+      }
+    },
+    {
+      "id": "PwrTrnsmL-line",
+      "type": "line",
+      "source": "v",
+      "source-layer": "PwrTrnsmL",
+      "paint": {
+        "line-color": "rgba(180, 180, 180, 0.6)",
+        "line-width": 0.7
+      }
+    },
+    {
+      "id": "WRltLine-circle",
+      "type": "circle",
+      "source": "v",
+      "source-layer": "WRltLine",
+      "paint": {
+        "circle-color": "rgba(180, 180, 180, 0.6)",
+        "circle-radius": 1
+      }
+    },
+    {
+      "id": "Anno-circle",
+      "type": "circle",
+      "source": "v",
+      "source-layer": "Anno",
+      "paint": {
+        "circle-color": "rgba(180, 180, 180, 0.6)",
+        "circle-radius": 1
+      }
+    }
+  ]
+}
