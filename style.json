@@ -14,7 +14,7 @@
   },
   "layers": [
     {
-      "id": "AdmArea-area",
+      "id": "AdmArea",
       "type": "fill",
       "source": "v",
       "source-layer": "AdmArea",
@@ -23,7 +23,7 @@
       }
     },
     {
-      "id": "WA-area",
+      "id": "WA",
       "type": "fill",
       "source": "v",
       "source-layer": "WA",
@@ -32,7 +32,7 @@
       }
     },
     {
-      "id": "TpgphArea-area",
+      "id": "TpgphArea",
       "type": "fill",
       "source": "v",
       "source-layer": "TpgphArea",
@@ -41,16 +41,7 @@
       }
     },
     {
-      "id": "WRltLine-area",
-      "type": "fill",
-      "source": "v",
-      "source-layer": "WRltLine",
-      "paint": {
-        "fill-color": "rgba(240, 240, 240, 0.6)"
-      }
-    },
-    {
-      "id": "WStrA-area",
+      "id": "WStrA",
       "type": "fill",
       "source": "v",
       "source-layer": "WStrA",
@@ -59,7 +50,7 @@
       }
     },
     {
-      "id": "BldA-area",
+      "id": "BldA",
       "type": "fill",
       "source": "v",
       "source-layer": "BldA",
@@ -68,7 +59,7 @@
       }
     },
     {
-      "id": "SpcfArea-area",
+      "id": "SpcfArea",
       "type": "fill",
       "source": "v",
       "source-layer": "SpcfArea",
@@ -77,7 +68,7 @@
       }
     },
     {
-      "id": "StrctArea-area",
+      "id": "StrctArea",
       "type": "fill",
       "source": "v",
       "source-layer": "StrctArea",
@@ -86,7 +77,7 @@
       }
     },
     {
-      "id": "Cstline-line",
+      "id": "Cstline",
       "type": "line",
       "source": "v",
       "source-layer": "Cstline",
@@ -96,7 +87,7 @@
       }
     },
     {
-      "id": "RvrCL-line",
+      "id": "RvrCL",
       "type": "line",
       "source": "v",
       "source-layer": "RvrCL",
@@ -106,7 +97,7 @@
       }
     },
     {
-      "id": "WL-line",
+      "id": "WL",
       "type": "line",
       "source": "v",
       "source-layer": "WL",
@@ -116,7 +107,7 @@
       }
     },
     {
-      "id": "WRltLine-line",
+      "id": "WRltLine",
       "type": "line",
       "source": "v",
       "source-layer": "WRltLine",
@@ -126,7 +117,7 @@
       }
     },
     {
-      "id": "AdmBdry-line",
+      "id": "AdmBdry",
       "type": "line",
       "source": "v",
       "source-layer": "AdmBdry",
@@ -136,7 +127,7 @@
       }
     },
     {
-      "id": "Cntr-line",
+      "id": "Cntr",
       "type": "line",
       "source": "v",
       "source-layer": "Cntr",
@@ -146,7 +137,7 @@
       }
     },
     {
-      "id": "Isbt-line",
+      "id": "Isbt",
       "type": "line",
       "source": "v",
       "source-layer": "Isbt",
@@ -156,7 +147,7 @@
       }
     },
     {
-      "id": "TpgphLine-line",
+      "id": "TpgphLine",
       "type": "line",
       "source": "v",
       "source-layer": "TpgphLine",
@@ -166,7 +157,7 @@
       }
     },
     {
-      "id": "RdCL-line",
+      "id": "RdCL",
       "type": "line",
       "source": "v",
       "source-layer": "RdCL",
@@ -176,7 +167,7 @@
       }
     },
     {
-      "id": "RailCL-line",
+      "id": "RailCL",
       "type": "line",
       "source": "v",
       "source-layer": "RailCL",
@@ -186,7 +177,7 @@
       }
     },
     {
-      "id": "RdEdg-line",
+      "id": "RdEdg",
       "type": "line",
       "source": "v",
       "source-layer": "RdEdg",
@@ -196,7 +187,7 @@
       }
     },
     {
-      "id": "RdCompt-line",
+      "id": "RdCompt",
       "type": "line",
       "source": "v",
       "source-layer": "RdCompt",
@@ -206,7 +197,7 @@
       }
     },
     {
-      "id": "RailTrCL-line",
+      "id": "RailTrCL",
       "type": "line",
       "source": "v",
       "source-layer": "RailTrCL",
@@ -216,7 +207,7 @@
       }
     },
     {
-      "id": "StrctLine-line",
+      "id": "StrctLine",
       "type": "line",
       "source": "v",
       "source-layer": "StrctLine",
@@ -226,7 +217,7 @@
       }
     },
     {
-      "id": "PwrTrnsmL-line",
+      "id": "PwrTrnsmL",
       "type": "line",
       "source": "v",
       "source-layer": "PwrTrnsmL",
@@ -236,17 +227,7 @@
       }
     },
     {
-      "id": "WRltLine-circle",
-      "type": "circle",
-      "source": "v",
-      "source-layer": "WRltLine",
-      "paint": {
-        "circle-color": "rgba(180, 180, 180, 0.6)",
-        "circle-radius": 1
-      }
-    },
-    {
-      "id": "Anno-circle",
+      "id": "Anno",
       "type": "circle",
       "source": "v",
       "source-layer": "Anno",

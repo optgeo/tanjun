@@ -1,7 +1,7 @@
 def areas
-  %w{AdmArea WA TpgphArea WRltLine WStrA BldA SpcfArea StrctArea}.each {|l|
+  %w{AdmArea WA TpgphArea WStrA BldA SpcfArea StrctArea}.each {|l|
     print <<-EOS
-  - id: #{l}-area
+  - id: #{l}
     type: fill
     source: v
     source-layer: #{l}
@@ -14,7 +14,7 @@ end
 def lines
   %w{Cstline RvrCL WL WRltLine AdmBdry Cntr Isbt TpgphLine RdCL RailCL RdEdg RdCompt RailTrCL StrctLine PwrTrnsmL}.each {|l|
     print <<-EOS
-  - id: #{l}-line
+  - id: #{l}
     type: line
     source: v
     source-layer: #{l}
@@ -26,9 +26,9 @@ def lines
 end
 
 def circles
-  %w{WRltLine Anno}.each {|l|
+  %w{Anno}.each {|l|
     print <<-EOS
-  - id: #{l}-circle
+  - id: #{l}
     type: circle
     source: v
     source-layer: #{l}

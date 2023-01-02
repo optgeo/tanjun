@@ -10,167 +10,154 @@ sources:
         https://maps.gsi.go.jp/xyz/experimental_bvmap-v1/{z}/{x}/{y}.pbf
     attribution: optbv by GSI
 layers: 
-  - id: AdmArea-area
+  - id: AdmArea
     type: fill
     source: v
     source-layer: AdmArea
     paint: 
       fill-color: rgba(240, 240, 240, 0.6)
-  - id: WA-area
+  - id: WA
     type: fill
     source: v
     source-layer: WA
     paint: 
       fill-color: rgba(240, 240, 240, 0.6)
-  - id: TpgphArea-area
+  - id: TpgphArea
     type: fill
     source: v
     source-layer: TpgphArea
     paint: 
       fill-color: rgba(240, 240, 240, 0.6)
-  - id: WRltLine-area
-    type: fill
-    source: v
-    source-layer: WRltLine
-    paint: 
-      fill-color: rgba(240, 240, 240, 0.6)
-  - id: WStrA-area
+  - id: WStrA
     type: fill
     source: v
     source-layer: WStrA
     paint: 
       fill-color: rgba(240, 240, 240, 0.6)
-  - id: BldA-area
+  - id: BldA
     type: fill
     source: v
     source-layer: BldA
     paint: 
       fill-color: rgba(240, 240, 240, 0.6)
-  - id: SpcfArea-area
+  - id: SpcfArea
     type: fill
     source: v
     source-layer: SpcfArea
     paint: 
       fill-color: rgba(240, 240, 240, 0.6)
-  - id: StrctArea-area
+  - id: StrctArea
     type: fill
     source: v
     source-layer: StrctArea
     paint: 
       fill-color: rgba(240, 240, 240, 0.6)
-  - id: Cstline-line
+  - id: Cstline
     type: line
     source: v
     source-layer: Cstline
     paint: 
       line-color: rgba(180, 180, 180, 0.6)
       line-width: 0.7
-  - id: RvrCL-line
+  - id: RvrCL
     type: line
     source: v
     source-layer: RvrCL
     paint: 
       line-color: rgba(180, 180, 180, 0.6)
       line-width: 0.7
-  - id: WL-line
+  - id: WL
     type: line
     source: v
     source-layer: WL
     paint: 
       line-color: rgba(180, 180, 180, 0.6)
       line-width: 0.7
-  - id: WRltLine-line
+  - id: WRltLine
     type: line
     source: v
     source-layer: WRltLine
     paint: 
       line-color: rgba(180, 180, 180, 0.6)
       line-width: 0.7
-  - id: AdmBdry-line
+  - id: AdmBdry
     type: line
     source: v
     source-layer: AdmBdry
     paint: 
       line-color: rgba(180, 180, 180, 0.6)
       line-width: 0.7
-  - id: Cntr-line
+  - id: Cntr
     type: line
     source: v
     source-layer: Cntr
     paint: 
       line-color: rgba(180, 180, 180, 0.6)
       line-width: 0.7
-  - id: Isbt-line
+  - id: Isbt
     type: line
     source: v
     source-layer: Isbt
     paint: 
       line-color: rgba(180, 180, 180, 0.6)
       line-width: 0.7
-  - id: TpgphLine-line
+  - id: TpgphLine
     type: line
     source: v
     source-layer: TpgphLine
     paint: 
       line-color: rgba(180, 180, 180, 0.6)
       line-width: 0.7
-  - id: RdCL-line
+  - id: RdCL
     type: line
     source: v
     source-layer: RdCL
     paint: 
       line-color: rgba(180, 180, 180, 0.6)
       line-width: 0.7
-  - id: RailCL-line
+  - id: RailCL
     type: line
     source: v
     source-layer: RailCL
     paint: 
       line-color: rgba(180, 180, 180, 0.6)
       line-width: 0.7
-  - id: RdEdg-line
+  - id: RdEdg
     type: line
     source: v
     source-layer: RdEdg
     paint: 
       line-color: rgba(180, 180, 180, 0.6)
       line-width: 0.7
-  - id: RdCompt-line
+  - id: RdCompt
     type: line
     source: v
     source-layer: RdCompt
     paint: 
       line-color: rgba(180, 180, 180, 0.6)
       line-width: 0.7
-  - id: RailTrCL-line
+  - id: RailTrCL
     type: line
     source: v
     source-layer: RailTrCL
     paint: 
       line-color: rgba(180, 180, 180, 0.6)
       line-width: 0.7
-  - id: StrctLine-line
+  - id: StrctLine
     type: line
     source: v
     source-layer: StrctLine
     paint: 
       line-color: rgba(180, 180, 180, 0.6)
       line-width: 0.7
-  - id: PwrTrnsmL-line
+  - id: PwrTrnsmL
     type: line
     source: v
     source-layer: PwrTrnsmL
     paint: 
       line-color: rgba(180, 180, 180, 0.6)
       line-width: 0.7
-  - id: WRltLine-circle
-    type: circle
-    source: v
-    source-layer: WRltLine
-    paint:
-      circle-color: rgba(180, 180, 180, 0.6)
-      circle-radius: 1
-  - id: Anno-circle
+  - id: Anno
     type: circle
     source: v
     source-layer: Anno
